@@ -4,6 +4,8 @@ import java.util.Date;
 
 /**
  * Created by tuongmin on 1/19/17.
+ * This is the abstract base class Tweet
+ * It includes the constructor, override toString, getter and setter for date and messages
  */
 
 public abstract class Tweet implements Tweetable{
@@ -20,6 +22,10 @@ public abstract class Tweet implements Tweetable{
         this.date = date;
     }
 
+    /**
+     * Combine date and message as a String with | delimiter
+     * @return combined string
+     */
     @Override
     public String toString(){
         return date.toString() + " | " + message;
