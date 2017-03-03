@@ -28,7 +28,7 @@ import com.google.gson.reflect.TypeToken;
 public class LonelyTwitterActivity extends Activity {
 	private LonelyTwitterActivity activity = this;
 
-	private static final String FILENAME = "file.sav";
+	private static final String FILENAME = "newFile.sav";
 	private EditText bodyText;
 	private ListView oldTweetsList;
 	private ArrayList<Tweet> tweetList = new ArrayList<Tweet>();
